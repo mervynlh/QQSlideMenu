@@ -1,0 +1,12 @@
+<com.example.qqslidemenu.SlideMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/slideMenu"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity" >
+
+   <include layout="@layout/layout_menu"/>
+   <include layout="@layout/layout_main"/>
+
+</com.example.qqslidemenu.SlideMenu>
